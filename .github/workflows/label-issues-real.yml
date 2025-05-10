@@ -9,8 +9,8 @@ jobs:
   assign-label:
     # permissions applied here would only be local to this job
     # once this permission is set, only this permission is granted, and the others are not granted
-    permission:       
-      issues: read
+    permissions:       
+      issues: write
     runs-on: ubuntu-latest
     steps:
       - name: Assign label
